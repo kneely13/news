@@ -1,0 +1,25 @@
+body {
+    background-color: royalblue;
+    
+}
+
+.jumbotron {
+    background-image: url(../images/news-blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    padding-left: 44%;
+}
+
+h2 {
+    color: white;
+    padding-left: 44%;
+}
+
+p {
+    color: white;
+    padding-left: 44%;
+}
