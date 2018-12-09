@@ -41,7 +41,7 @@ app.use(function(req, res, next) {
 // A GET route for scraping the oneamericannews website
 app.get("/scrape", function(req,res) {
     //first, grab the body of the html with axios
-    axios.get("https://www.oann.com/category/newsroom/").then(function(response) {
+    axios.get("https://www.oann.com/").then(function(response) {
     //now i load that into cheerio and save it to $ for a shorthand selector    
     var $ = cheerio.load(response.data);
 
