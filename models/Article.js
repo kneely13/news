@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 
 //saving reference to schema constructor
 var Schema = mongoose.Schema;
-
+// 
 var ArticleSchema = new Schema({
 
     headline: {
